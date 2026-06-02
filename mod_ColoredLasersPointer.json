@@ -1,0 +1,12 @@
+// Автор конфига;© 2026 DevGeek.IT All rights reserved.;
+{
+    // цветные лазеры
+    "color": {
+        "enable": true,  // состояние при начале боя: true - вкл, false - выкл
+        "keys": "NUMPAD7" // клавиша (можно "KEY_LCTRL AND KEY_NUMPAD7")
+    },
+    "enable": true, // состояние мода при начале боя
+    "keys": "NUMPAD3", // клавиша для вкл/выкл мода
+    "vehicleType": ["lightTank", "mediumTank", "heavyTank"]
+    // доступные типы: lightTank, mediumTank, heavyTank, AT-SPG, SPG
+}
